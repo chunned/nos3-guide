@@ -1,6 +1,12 @@
 # Installation
 Note: Internet required throughout installation process.
 
+**Note on headless installation:** If you plan to run the VM on a system without a desktop environment, you will need to use X11 Forwarding to access the VM. 
+
+1. On the server, run `sudo echo "X11Forwarding = yes" >> /etc/ssh/sshd_config && sudo systemctl restart ssh`
+
+2. On the client, when SSHing into the server, use the `-X` option. Your local machine will need an X11 server running - if on Windows, [mobaXterm](https://mobaxterm.mobatek.net/) comes with one built in - simply use the mobaXterm terminal instead of cmd/powershell. 
+
 ## Preparing Dependencies
 Vagrant and VirtualBox are required. 
 
