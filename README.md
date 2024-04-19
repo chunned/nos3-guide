@@ -4,7 +4,7 @@
 
 **NASA Operational Simulator for Small Satellites** (NOS3) is exactly what the name suggests - a satellite simulator developed by NASA. 
 
-The project is somewhat complex and documentation is scattered and geared more towards experienced engineers. This repository is essentially the notes I'm taking along the way while learning about the project from the ground up, as someone who knows very little about CubeSats. 
+The project is somewhat complex and geared more towards experienced engineers. This repository is essentially the notes I'm taking along the way while learning about the project from the ground up, as someone who knows very little about CubeSats. 
 
 ## Getting Started
 
