@@ -2,7 +2,7 @@
     - Use the Command Sender to send the `TO_ENABLE_OUTPUT` packet to the target `CFS_RADIO`
 
 - [Understanding all of the windows](https://github.com/nasa/nos3/wiki/NOS3-Running-Executables-and-Windows)
-    After running `make launch`, many applications/windows are launched. The above link will describe what each one is for. A simplified explanation is included below:
+  -  After running `make launch`, many applications/windows are launched. The above link will describe what each one is for. A simplified explanation is included below:
 
 | Window | Purpose |
 | ---- | ---- |
