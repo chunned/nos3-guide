@@ -50,7 +50,7 @@ Once the final command finishes, the VM should be up and you can log in as `jsta
 
 Open a terminal and run `cd /home/jstar/Desktop/github-nos3`. Make sure the directory is not empty - if it is, Vagrant failed to properly configure the VM. Shutdown the VM and run `vagrant destroy`, then repeat the Deploy steps.
 
-Before proceeding, you can make a choice between COSMO 4 and COSMO 5. Read more [here](https://github.com/nasa/nos3/wiki/NOS3-Ground-Systems). TL;DR - 4 is older looking native applications and 5 is more modern looking web interface. The default is COSMO 4 - to change this, open the file `~/Desktop/github-nos3/cfg/nos3-mission.xml` and change line 3 from `<gsw>cosmos</gsw>` to `<gsw>openc3</gsw>`.
+Before proceeding, you can make a choice between COSMOS 4 and COSMOS 5. Read more [here](https://github.com/nasa/nos3/wiki/NOS3-Ground-Systems). TL;DR - 4 is older looking native applications and 5 is more modern looking web interface. The default is COSMOS 4 - to change this, open the file `~/Desktop/github-nos3/cfg/nos3-mission.xml` and change line 3 from `<gsw>cosmos</gsw>` to `<gsw>openc3</gsw>`.
 
 Run the following commands in `~/Desktop/github-nos3`. If any step fails, run `make stop && make clean && rm -rf ~/.nos3` then repeat.
 
@@ -60,6 +60,6 @@ make prep
 make
 make launch
 ```
-If using COSMO4, the application will launch. If using COSMO5, wait a while for configuration and then navigate to `localhost:2900`.
+If using COSMOS 4, the application will launch. If using COSMOS 5, wait a while for configuration and then navigate to `localhost:2900`.
 
 Next, see [Usage](Usage.md).
