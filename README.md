@@ -8,5 +8,5 @@ The project is somewhat complex and geared more towards experienced engineers. T
 
 ## Getting Started
 
-- View the installation and deployment isntructions [here](Install.md)
+- View the installation and deployment instructions [here](Install.md)
 - Learn about the project [background and architecture](Overview.md)
