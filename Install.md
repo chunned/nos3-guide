@@ -61,3 +61,5 @@ make
 make launch
 ```
 If using COSMO4, the application will launch. If using COSMO5, wait a while for configuration and then navigate to `localhost:2900`.
+
+Next, see [Usage](Usage.md).
