@@ -20,7 +20,7 @@ git commit -m "Initial component template based on version 0.0.0"
 
 ## Flight Software
 
-Next we need to connect our component to the flight software. Start by opening `./nos3/cfg/nos3_defs/cpu1_cfe_es_startup.scr` - you will see a table that defines all the components for [[Core Flight Executive|CFE]]. The description of each field is present towards the end of the file:\
+Next we need to connect our component to the flight software. Start by opening `./nos3/cfg/nos3_defs/cpu1_cfe_es_startup.scr` - you will see a table that defines all the components for [Core Flight Executive (cFE)](./Core%20Flight%20Executive.md). The description of each field is present towards the end of the file:
 
 ```
 Startup script fields:

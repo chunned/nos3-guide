@@ -12,7 +12,9 @@
 ## Hardware-Servicing Applications
 - Communicates directly with a piece of hardware
 - Should follow the below device driver model
-![[cFE_Application_Developers_Guide_image17 1.png]]
+
+![Diagram showing cFE architecture for HW servicing apps](./images/cFE_Application_Developers_Guide_image17%201.png)
+
 ## Best Practices
 - Use the sample app to generate your component according to the template
 - All files should begin with component name as prefix to ensure unique filenames

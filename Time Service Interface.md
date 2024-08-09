@@ -1,4 +1,4 @@
-*Part of [[cFE Application Developers Guide]]*
+*Part of [cFE Application Developers Guide](./cFE%20Application%20Developers%20Guide.md)*
 
 # Time Service Interface (TIME)
 - This API maintains and provides access to timing information

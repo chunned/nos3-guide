@@ -1,4 +1,4 @@
-*Part of [[cFE Application Developers Guide]]*
+*Part of [cFE Application Developers Guide](./cFE%20Application%20Developers%20Guide.md)*
 # Executive Services Interface
 - Incorporates the OSAL API
 	- OSAL API intent was to provide common interface for all apps, regardless of what RTOS its running on

@@ -1,7 +1,7 @@
 [Source](https://github.com/nasa/cFE/blob/main/docs/cFE%20Application%20Developers%20Guide.md)
 
 # Introduction
-- [[Core Flight Executive|cFE]] services are the building blocks to create and host FSW applications
+- [Core Flight Executive](./Core%20Flight%20Executive.md) (cFE) services are the building blocks to create and host FSW applications
 - Five core services make up cFE
 	- Executive Services (ES)
 	- Event Services (EVS)
@@ -27,19 +27,19 @@
 - **An all-inclusive header is also provided: `cfe.h`**
 
 Remaining sections are split into their own files:
-# [[cFE Application Architecture]]
+# [cFE Application Architecture](./cFE%20Application%20Architecture.md)
 
-# [[Executive Services Interface]]
+# [Executive Services Interface](./Executive%20Services%20Interface.md)
 
-# [[Software Bus Interface]]
+# [Software Bus Interface](./Software%20Bus%20Interface.md)
 
-# [[Event Services Interface]]
+# [Event Services Interface](./Event%20Services%20Interface.md)
 
-# [[Table Service Interface]]
+# [Table Service Interface](./Table%20Service%20Interface.md)
 
-# [[File Service Interface]]
+# [File Service Interface](./File%20Service%20Interface.md)
 
-# [[Time Service Interface]]
+# [Time Service Interface](./Time%20Service%20Interface.md)
 
 # Error Handling
 - See [the original documentation](https://github.com/nasa/cFE/blob/main/docs/cFE%20Application%20Developers%20Guide.md#11-error-handling)
