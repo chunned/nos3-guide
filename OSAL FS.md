@@ -20,7 +20,7 @@ CFE_PLATFORM_ES_RAM_DISK_NUM_SECTORS);
   - Common values: ramdisk1, flash1, volatile1, etc.
 - Physical device name
   - Implementation-specific; for a file system based implementation, should be the mount point on the root file system where the volume will be mounted
-    - Common mount points are /mnt, /tmp, /home/<user>/
+    - Common mount points are /mnt, /tmp, /home/\<user>/
 - Volume type
   - FS_BASED: use existing file system
   - RAM_DISK: uses a RAM disk
@@ -37,9 +37,16 @@ CFE_PLATFORM_ES_RAM_DISK_NUM_SECTORS);
   - Internal flags that should be set to a space character
 - Block Size Field
   - Records the block size of the device; does not need to be set by the user
+
 ==Where is this table defined?==
+- Unclear if it's actually needed
+	- Couldn't find it anywhere in the project repo
+- Per the [Configuration Guide](https://github.com/nasa-itc/osal/blob/570ad0913daf57ad2a62c92f6a0daef5a94f72ba/docs/OSAL-Configuration-Guide.md), this table is no longer required
+	- Instead, these values are configured during startup; can be done any time after calling `OS_API_Init()`
 
 **Note**
 - OSAL uses abstracted FDs
-- The FDs returned from OS_create and OS_open will ionly work with other OS_ functions
+- The FDs returned from OS_create and OS_open will only work with other OS_ functions
+
+- It would seem that none of the standard NOS3 components have any mapping between the VM host filesystem and the internal spacecraft filesystem; so I don't have anything to base an example on 
 

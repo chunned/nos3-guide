@@ -22,4 +22,5 @@ int32 OS_mkdir(const char *path, uint32 access)
 int32 OS_rmdir(const char *path)
 ```
 ## File API
-see page 348
+- See [OSAL FS](OSAL%20FS.md)
+- 
