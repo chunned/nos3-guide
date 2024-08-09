@@ -36,3 +36,10 @@ Remaining sections are split into their own files:
 # [[Event Services Interface]]
 
 # [[Table Service Interface]]
+
+# [[File Service Interface]]
+
+# [[Time Service Interface]]
+
+# Error Handling
+- See [the original documentation](https://github.com/nasa/cFE/blob/main/docs/cFE%20Application%20Developers%20Guide.md#11-error-handling)
